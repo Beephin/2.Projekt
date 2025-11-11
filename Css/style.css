@@ -1,0 +1,483 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1{
+    color: #2E1B0C;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+h2{
+    font-family: "Open Sans", sans-serif;
+}
+
+h3{
+    font-family: "Roboto", sans-serif;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    word-spacing: 0.12em;
+    margin-bottom: 1.5rem;
+}
+
+/* ------------------ Header ------------------*/
+
+.logo-banner {
+    position: absolute;
+    top: 10px;
+    left:  10px;
+    width: 80px;
+    height: auto;
+}
+
+.lav-nyt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+    color: #3f2a1a;
+    font-size: 4rem;
+    text-align: center;
+}
+
+/* --- Specifikt Kontakt Header --- */
+
+.lav-nyt-kontakt{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+    color: #3f2a1a;
+    font-size: 4rem;
+    text-align: center;
+}
+
+/* -------------------  Main - forside -------------------*/
+
+.main-sec{
+    gap: 1.5rem;
+    width: 100%;
+    padding: 1.5rem;
+    background-color: #EDE3D1;
+}
+
+.grid-overskrift{
+    text-align: center;
+    margin-bottom: none;
+    background-color: #ede3d1;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.grid-tekst{
+    background-color: #DBCCBE;
+    border-color: #000000;
+    border-radius: 8px;
+    padding: 2rem;
+    border: 1px solid #000000;
+}
+
+/* -------------------  Main - DIY -------------------*/
+
+.DIY-main{
+    gap: 1.5rem;
+    width: 100%;
+    padding: 1.5rem;
+    background-color: #EDE3D1;
+}
+
+.DIY-overskrift{
+    text-align: center;
+    margin-bottom: none;
+    background-color: #ede3d1;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+img{
+    border-radius: 8px;
+}
+
+.bi1, .bi2, .bi31, .bi6{
+    width: 26rem;
+    height: auto;
+    border: 1px solid #000000;
+}
+
+.bi32, .bi33, .bi41, .bi42, .bi51, .bi52{
+    width: 12.85rem;
+    height: auto;
+    border: 1px solid #000000;
+}
+
+.DIY-sec-1, .DIY-sec-2, .DIY-sec-3, .DIY-sec-4{
+    background-color: rgb(145, 119, 80, 0.6);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.div-tekst{
+    background-color: #DBCCBE;
+    border-radius: 8px;
+    border: 1px solid #000000;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* -------------------  Main - Kontakt -------------------*/
+
+.main-sec-kon{
+    gap: 1.5rem;
+    width: 100%;
+    padding: 1.5rem;
+    background-color: #EDE3D1;
+}
+
+.kontakt-kontakt{
+    text-align: center;
+    margin-bottom: none;
+    background-color: #ede3d1;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.kontakt-tekst{
+    background-color: #DBCCBE;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    margin-top: 0.7rem;
+    border: 1px solid #000000;
+}
+
+.navn{
+    background-color: #DBCCBE;
+    padding: 0.5rem;
+    border-radius: 8px;
+    margin: 5px;
+    border: 1px solid #000000;
+}
+
+.mail{
+    background-color: #DBCCBE;
+    padding: 0.5rem;
+    border-radius: 8px;
+    margin: 5px;
+    border: 1px solid #000000;
+}
+
+.besked{
+    padding: 0.2rem;
+    margin-left: 5px;
+    margin-bottom: -10px;
+}
+
+.kasse{
+    background-color: #DBCCBE;
+    padding: 5rem;
+    border-radius: 8px;
+    margin: 5px;
+    border: 1px solid #000000;
+    height: 14.2rem;
+}
+
+.send{
+    background-color: rgb(145, 119, 80, 0.6);
+    padding: 0.2rem;
+    border-radius: 4px;
+    margin: 5px;
+    width: 70px;
+    border: 1px solid #000000;
+}
+
+h3{
+    font-weight: 350;
+}
+
+button:hover{
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: #C39066;
+}
+
+.button-send{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* -------------------  Footer -------------------*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 150px;
+    background-color: #DBCCBE;
+    padding: 1rem;
+}
+
+.logo-footer {
+    bottom: 10px;
+    left:  10px;
+    width: 80px;
+    height: auto;
+}
+
+.adresse{
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    padding-bottom: 0.6rem;
+}
+
+
+
+/* ---------------------------------------- DESKTOP ------------------------------------------- */
+
+@media screen and (min-width: 769px){
+
+/* ---------- header ----------- */
+
+#bars{
+    display: none;
+}
+
+.forside-banner-mobil{
+    display: none;
+}
+
+nav{
+    position: absolute;
+    top: 1.25rem;
+    right: 2.5rem;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 15px 60px;
+    background-color: #EDE4DB;
+    border-radius: 10px;
+    gap: 150px;
+}
+
+nav li a{
+    color: #333;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+nav li a:hover{
+    text-decoration: underline;
+    border-radius: 4px;
+    background-color: rgb(145, 119, 80, 0.5)
+}
+
+.ydre-box{
+    background-color: rgb(145, 119, 80, 0.7);
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.forside-banner{
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+}
+
+/* ------------ Main -forside ----------*/
+
+.main-sec{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.tek1, .tek2, .tek3{
+    background-color: #DBCCBE;
+    border: 2px #000000;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.hoo1, .hoo2, .hoo3{
+    border: 2px #000000;
+    width: 25rem;
+    height: auto;
+    border-radius: 10px;
+}
+
+.tek1, .hoo1, .tek2, .hoo2{
+    grid-column: 3;
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+
+.tek1{
+    margin-bottom: 0.6rem;
+}
+
+.tek3, .hoo3{
+    grid-column: 4;
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+
+.pil-ned, .pil-hen{
+    width: 15rem;
+    height: auto;
+}
+
+/* ---------- Main -DIY ------------- */
+
+.DIY-main{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1.5fr 2fr 2fr 2fr;
+}
+
+main{
+    border-bottom: 4px white solid;
+}
+
+/*----------- Main -kontakt ---------- */
+
+.main-sec-kon{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 2fr 2fr;
+    gap: 1.5rem;
+    width: 100%;
+    padding: 1.5rem;
+    background-color: #EDE3D1;
+}
+
+/* ------------- footer ------------- */
+
+.ikoner{
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem; 
+}
+
+}
+
+
+/* ----------------------------------- MOBIL og TABLET -------------------------------------- */
+
+@media screen and (max-width: 768px){
+
+/*------------ header -----------*/
+
+.forside-banner-mobil{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.forside-banner{
+    display: none;
+}
+
+header nav{
+    display: none;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 1.5rem;
+}
+
+nav li a{
+    color: #333;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+nav li a:hover{
+    text-decoration: underline;
+    border-radius: 4px;
+    background-color: rgb(145, 119, 80, 0.5)
+}
+
+.show{
+    display: block;
+    position: absolute;
+    top: 49px;
+    left: 70%;
+    background-color:  #DBCCBE;
+    width: 50%;
+    min-height: 20%;
+    border-radius: 8px;
+}
+
+button#bars{
+    background-color: #DBCCBE;
+    border-radius: 5px;
+    font-size: 20px;
+    position: absolute;
+    top: 3%;
+    left: 90%;
+}
+
+/* --------- forside ------------ */
+
+.pil-hen, .pil-ned{
+    display: none;
+}
+
+.tek1, .tek2, .tek3{
+    background-color: #DBCCBE;
+    border: 2px #000000;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.hoo3, .tek3{
+    order: +2;
+}
+
+.hoo1{
+    margin-top: 1rem;
+}
+
+.hoo1, .hoo2, .hoo3{
+    border: 2px #000000;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.tek1, .hoo1, .tek2, .hoo2{
+    grid-column: 3;
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+
+.tek1{
+    margin-bottom: 0.6rem;
+}
+
+.tek3, .hoo3{
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+
+/* --------- footer-----------*/
+
+.ikoner{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+}
