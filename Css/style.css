@@ -4,6 +4,8 @@
     font-family: "Open Sans", sans-serif;
 }
 
+/* ------------------ tekst dekoration ------------------*/
+
 h1{
     color: #2E1B0C;
     font-family: "Merriweather Sans", sans-serif;
@@ -15,6 +17,14 @@ h2{
 
 h3{
     font-family: "Roboto", sans-serif;
+}
+
+.grid-tekst h3{
+    font-weight: bold;
+}
+
+.div-tekst h3{
+    font-weight: bold;
 }
 
 p{
@@ -34,30 +44,6 @@ p{
     left:  10px;
     width: 80px;
     height: auto;
-}
-
-.lav-nyt{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    bottom: 5%;
-    transform: translate(-50%, -50%);
-    color: #3f2a1a;
-    font-size: 4rem;
-    text-align: center;
-}
-
-/* --- Specifikt Kontakt Header --- */
-
-.lav-nyt-kontakt{
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    bottom: 5%;
-    transform: translate(-50%, -50%);
-    color: #3f2a1a;
-    font-size: 4rem;
-    text-align: center;
 }
 
 /* -------------------  Main - forside -------------------*/
@@ -116,12 +102,6 @@ img{
     width: 12.85rem;
     height: auto;
     border: 1px solid #000000;
-}
-
-.DIY-sec-1, .DIY-sec-2, .DIY-sec-3, .DIY-sec-4{
-    background-color: rgb(145, 119, 80, 0.6);
-    padding: 1rem;
-    border-radius: 8px;
 }
 
 .div-tekst{
@@ -254,6 +234,39 @@ footer {
     display: none;
 }
 
+.lav-nyt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+    color: #3f2a1a;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.lav-nyt2{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+    color: #3f2a1a;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.lav-nyt-kontakt{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+    color: #3f2a1a;
+    font-size: 4rem;
+    text-align: center;
+}
+
 nav{
     position: absolute;
     top: 1.25rem;
@@ -349,6 +362,12 @@ main{
     border-bottom: 4px white solid;
 }
 
+.DIY-sec-1, .DIY-sec-2, .DIY-sec-3, .DIY-sec-4{
+    background-color: rgb(145, 119, 80, 0.6);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
 /*----------- Main -kontakt ---------- */
 
 .main-sec-kon{
@@ -382,6 +401,40 @@ main{
     position: relative;
     width: 100%;
     height: auto;
+    border-radius: 0;
+}
+
+.lav-nyt{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+    color: #3f2a1a;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.lav-nyt2{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+    color: #3f2a1a;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.lav-nyt-kontakt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+    color: #3f2a1a;
+    font-size: 4rem;
+    text-align: center;
 }
 
 .forside-banner{
@@ -470,6 +523,20 @@ button#bars{
 .tek3, .hoo3{
     border-radius: 10px;
     border: 1px solid #000000;
+}
+
+.DIY-sec-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* --------- Main DIY -----------*/
+
+.DIY-sec-1, .DIY-sec-2, .DIY-sec-3, .DIY-sec-4{
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: -1.5rem;
 }
 
 /* --------- footer-----------*/
