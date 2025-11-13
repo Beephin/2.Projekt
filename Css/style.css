@@ -99,18 +99,6 @@ img{
     border-radius: 8px;
 }
 
-.bi1, .bi2, .bi31, .bi6{
-    width: 26rem;
-    height: auto;
-    border: 1px solid #000000;
-}
-
-.bi32, .bi33, .bi41, .bi42, .bi51, .bi52{
-    width: 12.85rem;
-    height: auto;
-    border: 1px solid #000000;
-}
-
 .div-tekst{
     background-color: #DBCCBE;
     border-radius: 8px;
@@ -258,7 +246,7 @@ footer {
     text-align: center;
 }
 
-.lav-nyt2{
+.lav-nyt-diy{
     position: absolute;
     top: 48%;
     left: 50%;
@@ -381,6 +369,18 @@ main{
     border-radius: 8px;
 }
 
+.bi1, .bi2, .bi31, .bi6{
+    width: 26rem;
+    height: auto;
+    border: 1px solid #000000;
+}
+
+.bi32, .bi33, .bi41, .bi42, .bi51, .bi52{
+    width: 12.85rem;
+    height: auto;
+    border: 1px solid #000000;
+}
+
 /*----------- Main -kontakt ---------- */
 
 .main-sec-kon{
@@ -424,29 +424,29 @@ main{
     bottom: 5%;
     transform: translate(-50%, -50%);
     color: #3f2a1a;
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
 }
 
-.lav-nyt2{
+.lav-nyt-diy{
     position: absolute;
-    top: 48%;
-    left: 50%;
+    top: 43%;
+    left: 53%;
     bottom: 5%;
     transform: translate(-50%, -50%);
     color: #3f2a1a;
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
 }
 
 .lav-nyt-kontakt{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 48%;
+    left: 52%;
     bottom: 5%;
     transform: translate(-50%, -50%);
     color: #3f2a1a;
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
 }
 
@@ -492,7 +492,7 @@ button#bars{
     font-size: 20px;
     position: absolute;
     top: 3%;
-    left: 90%;
+    left: 85%;
 }
 
 /* --------- forside ------------ */
@@ -550,6 +550,18 @@ button#bars{
     padding: 1rem;
     border-radius: 8px;
     margin-bottom: -1.5rem;
+}
+
+.bi1, .bi2, .bi31, .bi6{
+    width: 100%;
+    height: auto;
+    border: 1px solid #000000;
+}
+
+.bi32, .bi33, .bi41, .bi42, .bi51, .bi52{
+    width: 49%;
+    height: auto;
+    border: 1px solid #000000;
 }
 
 /* --------- footer-----------*/
