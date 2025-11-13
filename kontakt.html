@@ -58,25 +58,67 @@
         </section>
 
         <section class="menu-kontakt">
-            <div class="navn">
-                <h3>Fulde navn:</h3>
+            
+            <form>
+            <label class="visually-hidden" for="navn">Navn:</label>
+            <input id="navn" type="text" placeholder="Navn" required>
+
+            <label class="visually-hidden" for="mail">E-mail:</label>
+            <input id="mail" type="email" placeholder="E-mail" required>
+
+            <label class="visually-hidden" for="tel">Telefon:</label>
+            <input id="tel" type="tel" placeholder="Telefon">
+
+            <!--Dropdown--> 
+
+            <div class="costum select">
+                <label for="region">Region:</label>
+                <select id="region">
+                    <option value="0" selected="true" disabled>Vælg region</option>
+                    <option value="1">Syddanmark</option>
+                    <option value="2">Sjælland</option>
+                    <option value="3">Hovedstaden</option>
+                    <option value="4">Nordjylland</option>
+                    <option value="5">Midtjylland</option>
+                </select>
             </div>
 
-            <div class="mail">
-                <h3>Mail:</h3>
-            </div>
+            <!--Checkbox af services-->
+            
+            <fieldset class="checkbox">
+                <legend>Hvad handler din henvendelse om?</legend>
+                <div>
+                    <input type="checkbox" id="monstre">
+                    <label for="monstre">Mønstre</label>
+                </div>
 
-            <div class="besked">
-                <h3>Skriv besked:</h3>
-            </div>
+                <div>
+                    <input type="checkbox" id="ideer">
+                    <label for="ideer">Ideer</label>
+                </div>
 
-            <div class="kasse"></div>
+                <div>
+                    <input type="checkbox" id="forbedringer">
+                    <label for="forbedringer">Forbedringer</label>
+                </div>
+            </fieldset>
 
-            <div class="button-send">
-            <button class="send">
-                SEND
-            </button>
-            </div>
+            <label for="besked">Besked:</label>
+            <textarea id="besked" cols="30" rows="10"></textarea>
+
+            <fieldset>
+                <legend>Må vi kontakte dig på telefon?</legend>
+
+                <input id="ja" type="radio" name="kontakt">
+                <label for="ja">Ja</label>
+
+                 <input id="nej" type="radio" name="kontakt">
+                <label for="nej">Nej</label>
+            </fieldset>
+
+            <input type="submit" name="submit" value="Send besked">
+
+        </form>
 
         </section>
         </section>
