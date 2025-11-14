@@ -39,7 +39,7 @@ p{
 address{
     font-family: "Roboto", sans-serif;
     text-align: center;
-    padding-bottom: 0.8rem;
+    padding-bottom: 0.4rem;
     font-style: normal;
 }
 
@@ -51,6 +51,10 @@ address{
     left:  10px;
     width: 80px;
     height: auto;
+}
+
+.logo-banner:hover{
+    transform: scale(1.05);
 }
 
 /* -------------------  Main - forside -------------------*/
@@ -212,11 +216,28 @@ footer {
     height: auto;
 }
 
+.logo-footer:hover{
+    transform: scale(1.05);
+}
+
 .adresse{
     color: #000000;
     font-family: "Roboto", sans-serif;
     text-align: center;
     padding-bottom: 0.6rem;
+    text-decoration: none;
+}
+
+.adresse:hover{
+    transform: scale(1.05);
+}
+
+.facebook, .instagram, .whatsapp{
+    color: rgb(74, 73, 74);
+}
+
+.facebook:hover, .instagram:hover, .whatsapp:hover{
+    transform: scale(1.2);
 }
 
 
@@ -384,9 +405,11 @@ button#bars{
 
 .ikoner{
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     font-size: 2rem;
 }
+
 
 }
 
